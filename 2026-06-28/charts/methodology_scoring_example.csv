@@ -1,0 +1,7 @@
+"step_number","step_name","reader_label","value","unit","plain_english_meaning","example_value_for_10000_usd"
+"1","signal_price","Price at signal","$100.00","usd","The price recorded when the signal or source pattern was visible",""
+"2","later_price","Price 4 hours later","$101.10","usd","The later price checked at the stated prediction window",""
+"3","raw_move","Raw move","+1.10","percent","The price change before estimated trading costs",""
+"4","estimated_costs","Estimated trading costs","-0.25","percentage_points","The standard cost subtraction used before calling a pattern useful",""
+"5","scored_result","Result after costs","+0.85","percent","The result that counts in the scorecard","+$85"
+"6","verdict","How the scorecard reads it","Positive after costs","text","This one example would count as positive, but many examples are needed before trusting a pattern",""

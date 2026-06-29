@@ -1,0 +1,20 @@
+%% Source Lab Notes methodology chart
+%% Generated for methodology draft: 2026-06-28
+%% Data: methodology_scoring_example.csv
+%% This is a worked scoring example, not a real trade.
+%% Research only, not investment advice.
+%%{init: {"theme":"base","themeVariables":{"background":"transparent","primaryColor":"#0f766e","primaryTextColor":"#111827","primaryBorderColor":"#0f766e","lineColor":"#64748b","fontFamily":"Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif"}}}%%
+flowchart LR
+  A["1. Record at time T<br/>Price: $100.00<br/>Source pattern visible"] --> B["2. Wait for stated window<br/>4 hours later<br/>Price: $101.10"]
+  B --> C["3. Measure raw move<br/>+1.10% before costs"]
+  C --> D["4. Subtract costs<br/>-0.25 percentage points<br/>No free win"]
+  D --> E["5. Score the result<br/>+0.85% after costs<br/>+$85 on $10,000"]
+  E --> F["6. Add it to the pattern record<br/>One example is not proof<br/>Many examples make the scorecard"]
+  classDef observe fill:#ecfeff,stroke:#0891b2,stroke-width:2px,color:#0f172a;
+  classDef wait fill:#eef2ff,stroke:#4f46e5,stroke-width:2px,color:#0f172a;
+  classDef cost fill:#fff7ed,stroke:#f97316,stroke-width:2px,color:#0f172a;
+  classDef result fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#0f172a;
+  class A observe;
+  class B,C wait;
+  class D cost;
+  class E,F result;
