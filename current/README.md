@@ -1,12 +1,14 @@
 # Current Source Lab Notes Scorecards
 
-Generated: 2026-06-29T15:31:48.240Z
+Generated: 2026-06-29T15:38:29.634Z
 
-Database tournament run: `cpl-tournament-2026-06-29T01-03-52-205Z`
+Public package id: `package-f37efb9a12bcf0`
 
-Backtest runs included for asset-specific rows: `cpl-backtest-2026-06-25T21-05-39-000Z-76b94298`, `cpl-backtest-2026-06-25T21-05-12-000Z-2a365d7a`
+Replay batches included for asset-specific rows: 2
 
 Estimated cost subtracted: 0.25 percentage points.
+
+Public source boundary: this package identifies evidence by broad source class, not by named provider or raw source id. Provider names and raw source payloads stay in the local research database.
 
 ## Plain-English Read
 
