@@ -17,11 +17,11 @@ A clue is something visible at a point in time that someone might claim helps pr
 | `current/current_signal_family_scorecard.csv` | One row per broad clue family or test rule. | Start here for the simplest current scorecard. |
 | `current/current_asset_signal_scorecard.csv` | One row per asset, clue, and horizon slice. | Check whether a clue behaved differently by asset. |
 | `current/current_row_level_signal_evidence.csv` | One row per historical replay observation. | Inspect the older row-level replay evidence behind the aggregate scorecards. |
-| `current/current_pattern_observations.csv` | One row per timestamped clue observation. | Audit where a clue was seen, when, source category, source record id, freshness, and later outcome. |
+| `current/current_pattern_observations.csv` | One row per timestamped clue observation. | Audit where a clue was seen, when, source class, public record id, freshness, and later outcome. |
 | `current/current_pattern_episodes.csv` | One row per persistence episode. | See whether a clue appeared once or persisted across later snapshots. |
-| `current/current_source_health_scorecard.csv` | One row per source. | Check whether sources were reachable and current enough to count. |
+| `current/current_source_health_scorecard.csv` | One row per source class. | Check whether source classes were reachable and current enough to count. |
 | `current/current_research_leads.csv` | One row per lead worth more testing. | See what looks worth studying next. |
-| `SOURCE_CATALOG.csv` | One row per source category or source id. | Understand source categories, access methods, and disclosure boundaries. |
+| `SOURCE_CATALOG.csv` | One row per public source class. | Understand data categories, access methods, and disclosure boundaries. |
 
 ## Important Terms
 
@@ -29,8 +29,8 @@ A clue is something visible at a point in time that someone might claim helps pr
 | --- | --- |
 | `clue` | A recorded piece of information that might help predict later movement. |
 | `signal` | A clue that people might casually call a signal. Source Lab Notes treats this as a claim to test, not a fact. |
-| `observation` | One clue captured at one timestamp for one asset/source/pattern. |
-| `episode` | Repeated observations of the same clue/source/asset grouped together when they appear close in time. |
+| `observation` | One clue captured at one timestamp for one asset/source-class/pattern. |
+| `episode` | Repeated observations of the same clue/source-class/asset grouped together when they appear close in time. |
 | `horizon` | The time window checked after the clue appeared, usually 1 hour, 4 hours, or 24 hours. |
 | `estimated_cost_pct` | Estimated trading-cost hurdle subtracted before calling a result useful. Current default: 0.25 percentage points. |
 | `raw_return_pct` | Price move before estimated costs. |
@@ -49,12 +49,13 @@ A clue is something visible at a point in time that someone might claim helps pr
 | `pattern_label` | Reader-facing clue name. |
 | `signal_family` | Broad clue family, such as social attention, regional premium, broad market context, or price movement. |
 | `asset` | Asset symbol. |
-| `source_id` | Source identifier or source category used for audit. |
-| `source_table` | Local source table used to normalize the observation. |
-| `source_record_id` | Local source record id. |
+| `source_class_id` | Public source-class identifier. This is a category, not a named provider. |
+| `source_class` | Plain-English source class. |
+| `source_description` | Plain-English description of the data type and publication boundary. |
+| `public_record_id` | Pseudonymous public record id. It is not the raw local source id. |
 | `evidence_mode` | How the evidence was captured, such as historical replay, scheduled API/source feature, or visual capture. |
 | `observed_at_utc` | Time the clue was observed. |
-| `run_id` | Local run id used to trace the collection or replay process. |
+| `public_run_id` | Pseudonymous public run id. It is not the raw local run id. |
 | `observation_role` | Whether this was a single observation, first seen, continuing, latest seen, or last seen. |
 | `source_freshness_status` | Whether the source was current, recent, stale, historical replay, or had a source issue. |
 | `source_freshness_note` | Plain-English source freshness note. |
@@ -81,7 +82,9 @@ A clue is something visible at a point in time that someone might claim helps pr
 | `pattern_label` | Reader-facing clue name. |
 | `signal_family` | Broad clue family. |
 | `asset` | Asset symbol. |
-| `source_id` | Source identifier or category. |
+| `source_class_id` | Public source-class identifier. This is a category, not a named provider. |
+| `source_class` | Plain-English source class. |
+| `source_description` | Plain-English description of the data type and publication boundary. |
 | `evidence_mode` | How the evidence was captured. |
 | `first_seen_at` | First time this clue/source/asset episode appeared. |
 | `last_seen_at` | Last time this clue/source/asset episode appeared. |
@@ -101,5 +104,5 @@ A clue is something visible at a point in time that someone might claim helps pr
 - These files are research evidence, not investment advice.
 - Some rows come from historical replay and some from point-in-time source collection.
 - A positive average can still be too early, too narrow, or too dependent on one outlier.
-- A source can be useful historically but stale for the latest checkpoint.
-- These files publish normalized observations, not full third-party raw data.
+- A source class can be useful historically but stale for the latest checkpoint.
+- These files publish normalized observations and pseudonymous public IDs, not named-provider IDs or full third-party raw data.

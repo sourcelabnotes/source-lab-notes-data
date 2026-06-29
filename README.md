@@ -37,10 +37,10 @@ This repository publishes **normalized observations and scorecards**, not raw th
 | `2026-06-29/charts/hero_signal_scorecard.mmd` | Mermaid source for the current scorecard chart. |
 | `current/current_signal_family_scorecard.csv` | Persistent scorecard by broad pattern or signal family. |
 | `current/current_asset_signal_scorecard.csv` | Persistent asset-specific scorecard by asset, pattern, and horizon. |
-| `current/current_row_level_signal_evidence.csv` | Timestamped row-level replay evidence showing asset, clue, source mode, observed price, later result, and reason. |
+| `current/current_row_level_signal_evidence.csv` | Timestamped row-level replay evidence showing asset, clue, source class, observed price, later result, and reason. |
 | `current/current_pattern_observations.csv` | Timestamped clue observations normalized for public audit. |
-| `current/current_pattern_episodes.csv` | Persistence groups connecting repeated observations of the same clue/source/asset. |
-| `current/current_source_health_scorecard.csv` | Persistent source-health and freshness scorecard. |
+| `current/current_pattern_episodes.csv` | Persistence groups connecting repeated observations of the same clue/source-class/asset. |
+| `current/current_source_health_scorecard.csv` | Persistent source-class health and freshness scorecard. |
 | `current/current_research_leads.csv` | Persistent list of research leads that need more evidence. |
 
 ## Refreshing Current Scorecards
@@ -98,4 +98,4 @@ This repository should contain only public, reader-facing assets. Do not upload 
 
 ## Reuse Note
 
-Source Lab Notes publishes these normalized files so readers can inspect, download, and reuse the scorecards. Third-party source names are included for audit context, but this repository does not grant rights in any third-party product, dashboard, API, or dataset.
+Source Lab Notes publishes these normalized files so readers can inspect, download, and reuse the scorecards. Public files describe source classes and data types rather than named-provider source ids, and they do not grant rights in any third-party product, dashboard, API, or dataset.

@@ -1,6 +1,6 @@
 # Current Source Lab Notes Scorecards
 
-Generated: 2026-06-29T14:24:47.757Z
+Generated: 2026-06-29T15:31:48.240Z
 
 Database tournament run: `cpl-tournament-2026-06-29T01-03-52-205Z`
 
@@ -24,7 +24,7 @@ The current public scorecard is still early research evidence, not investment ad
 
 The row-level evidence file has 2254 replay rows. Use it to see the asset, timestamp, clue label, source mode, observed price, later return, and reason for each scored example.
 
-The pattern audit files have 16541 timestamped clue observations grouped into 1672 persistence episodes. Use them to see when a clue was first seen, whether it persisted across later snapshots, which source it came from, and how it was scored.
+The pattern audit files have 16541 timestamped clue observations grouped into 1672 persistence episodes. Use them to see when a clue was first seen, whether it persisted across later snapshots, which source class it came from, and how it was scored.
 
 ## Top Research Leads
 
@@ -41,28 +41,18 @@ The pattern audit files have 16541 timestamped clue observations grouped into 16
 
 ## Source Health
 
-| source_id | current_status | latest_record_count | freshness_score | evidence_mode |
-| --- | --- | --- | --- | --- |
-| blockmedia_ko | ok | 10 | Stale for current checkpoint evidence | api_or_scripted_collection |
-| coinbase_exchange_public | ok | 13 | Current enough for latest checkpoint | api_or_scripted_collection |
-| coinbase_exchange_public_backtest | ok | 2179 | Stale for current checkpoint evidence | api_or_scripted_collection |
-| coindesk_japan_ja | ok | 10 | Stale for current checkpoint evidence | api_or_scripted_collection |
-| coingecko_demo_api | ok | 28 | Current enough for latest checkpoint | api_or_scripted_collection |
-| coinpost_ja | ok | 7 | Stale for current checkpoint evidence | api_or_scripted_collection |
-| crypto_pop_lab_strategy_tournament | ok | 8 | Recent context, not current checkpoint evidence | api_or_scripted_collection |
-| defillama_free_api | ok | 4 | Current enough for latest checkpoint | api_or_scripted_collection |
-| dexscreener_public_api | ok | 13 | Current enough for latest checkpoint | api_or_scripted_collection |
-| forklog_ru | ok | 16 | Stale for current checkpoint evidence | api_or_scripted_collection |
-| santiment_sanapi | ok | 9 | Stale for current checkpoint evidence | api_or_scripted_collection |
-| tokenpost_ko | ok | 20 | Stale for current checkpoint evidence | api_or_scripted_collection |
-| upbit_public | ok | 5 | Current enough for latest checkpoint | api_or_scripted_collection |
-| visual_coingecko | ok | 11 | Stale for current checkpoint evidence | visual_capture |
-| visual_nansen | ok | 15 | Stale for current checkpoint evidence | visual_capture |
-| visual_santiment | ok | 16 | Recent context, not current checkpoint evidence | visual_capture |
-| visual_santiment_sanbase | ok | 11 | Recent context, not current checkpoint evidence | visual_capture |
-| visual_santiment_sanbase_visual_dashboard_via_chrome_accessibility_tree | ok | 23 | Recent context, not current checkpoint evidence | visual_capture |
-| visual_santiment_sanbase_visual_dashboard_via_chrome_extension | ok | 11 | Recent context, not current checkpoint evidence | visual_capture |
-| visual_visual_dashboard | ok | 10 | Stale for current checkpoint evidence | visual_capture |
+| source_class_id | source_class | current_status | latest_record_count | freshness_score | evidence_mode |
+| --- | --- | --- | --- | --- | --- |
+| source_class_chain_and_protocol_context | Chain and protocol context | ok | 4 | Current enough for latest checkpoint | api_or_scripted_collection |
+| source_class_dex_activity_and_liquidity | Decentralized exchange activity and liquidity | ok | 13 | Current enough for latest checkpoint | api_or_scripted_collection |
+| source_class_exchange_price_data | Exchange price and historical market data | ok | 2192 | Current enough for latest checkpoint | market_data_or_historical_replay |
+| source_class_foreign_language_attention | Foreign-language news attention | ok | 63 | Stale for current checkpoint evidence | api_or_scripted_collection |
+| source_class_market_data_and_trending | Market data and public attention rankings | ok | 39 | Current enough for latest checkpoint | api_or_scripted_collection |
+| source_class_dashboard_ranking | Refreshed third-party dashboard ranking | ok | 71 | Recent context, not current checkpoint evidence | visual_capture |
+| source_class_regional_premium_or_discount | Regional premium or discount | ok | 5 | Current enough for latest checkpoint | api_or_scripted_collection |
+| source_class_social_onchain_development_context | Social, on-chain, and development context | ok | 9 | Stale for current checkpoint evidence | api_or_visual_capture |
+| source_class_source_feature | Third-party source feature | ok | 8 | Recent context, not current checkpoint evidence | api_or_scripted_collection |
+| source_class_wallet_or_large_holder_context | Wallet or large-holder context | ok | 15 | Stale for current checkpoint evidence | visual_capture |
 
 ## Caveat
 

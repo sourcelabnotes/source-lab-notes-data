@@ -9,7 +9,7 @@ Source Lab Notes tests whether a visible clue helped predict later crypto moveme
 The basic loop is:
 
 1. Record a clue before the result is known.
-2. Preserve the timestamp, asset, source, and clue definition.
+2. Preserve the timestamp, asset, source class, and clue definition.
 3. Wait for the stated horizon.
 4. Measure what happened later.
 5. Subtract estimated costs.
@@ -23,7 +23,7 @@ Many traders and tools call these things signals. Source Lab Notes uses the soft
 
 An observation is one captured clue at one time.
 
-An episode connects repeated observations of the same clue/source/asset when they appear close together in time. The current default maximum gap is 6 hours.
+An episode connects repeated observations of the same clue/source-class/asset when they appear close together in time. The current default maximum gap is 6 hours.
 
 The default scoring basis is first seen. If a clue remains visible across several checks, later observations are kept for audit and persistence context, but the episode is not treated as a brand-new discovery every time.
 
@@ -49,7 +49,9 @@ This repository publishes normalized observations and scorecards, not raw third-
 
 Public files may include:
 
-- source names or categories,
+- source classes or categories,
+- plain-English source descriptions,
+- pseudonymous public record/run ids,
 - access method,
 - timestamp,
 - asset,
@@ -60,6 +62,8 @@ Public files may include:
 
 Public files should not include:
 
+- named-provider source ids unless there is a clear editorial reason,
+- raw local source table names or source record ids,
 - raw screenshots,
 - raw HTML,
 - private dashboard exports,
