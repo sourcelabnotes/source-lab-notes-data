@@ -1,10 +1,10 @@
-# Source Lab Notes Public Data
+# Source Ledger Public Data
 
-This repository is the public data package for Source Lab Notes.
+This repository is the public data package for Source Ledger.
 
-Source Lab Notes tests prediction claims by recording clues before outcomes are known, waiting for the stated horizon, subtracting estimated costs, and publishing both the hits and the misses.
+Source Ledger tests prediction claims by recording clues before outcomes are known, waiting for the stated horizon, subtracting estimated costs, and publishing both the hits and the misses.
 
-This repository publishes **normalized observations and scorecards**, not raw third-party datasets. The goal is to make Source Lab Notes claims auditable without redistributing someone else's product.
+This repository publishes **normalized observations and scorecards**, not raw third-party datasets. The goal is to make Source Ledger claims auditable without redistributing someone else's product.
 
 ## Start Here
 
@@ -98,4 +98,4 @@ This repository should contain only public, reader-facing assets. Do not upload 
 
 ## Reuse Note
 
-Source Lab Notes publishes these normalized files so readers can inspect, download, and reuse the scorecards. Public files describe source classes and data types rather than named-provider source ids, and they do not grant rights in any third-party product, dashboard, API, or dataset.
+Source Ledger publishes these normalized files so readers can inspect, download, and reuse the scorecards. Public files describe source classes and data types rather than named-provider source ids, and they do not grant rights in any third-party product, dashboard, API, or dataset.

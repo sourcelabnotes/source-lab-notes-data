@@ -74,5 +74,5 @@
   <text x="150" y="1023" class="small">36 examples, 4-hour result after estimated costs, 16.67% positive</text>
 
   <line x1="110" y1="1075" x2="1690" y2="1075" stroke="#d8e1e9" stroke-width="3"/>
-  <text x="110" y="1122" class="footer">Generated June 30, 2026. Counts come from the local Source Lab Notes scorecard audit. Research only, not investment advice.</text>
+  <text x="110" y="1122" class="footer">Generated June 30, 2026. Counts come from the local Source Ledger scorecard audit. Research only, not investment advice.</text>
 </svg>

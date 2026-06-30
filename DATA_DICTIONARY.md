@@ -1,10 +1,10 @@
-# Source Lab Notes Data Dictionary
+# Source Ledger Data Dictionary
 
 Updated: June 29, 2026
 
 ## Core Idea
 
-Source Lab Notes scores clues.
+Source Ledger scores clues.
 
 A clue is something visible at a point in time that someone might claim helps predict later crypto movement. The scorecard asks:
 
@@ -28,7 +28,7 @@ A clue is something visible at a point in time that someone might claim helps pr
 | Term | Meaning |
 | --- | --- |
 | `clue` | A recorded piece of information that might help predict later movement. |
-| `signal` | A clue that people might casually call a signal. Source Lab Notes treats this as a claim to test, not a fact. |
+| `signal` | A clue that people might casually call a signal. Source Ledger treats this as a claim to test, not a fact. |
 | `observation` | One clue captured at one timestamp for one asset/source-class/pattern. |
 | `episode` | Repeated observations of the same clue/source-class/asset grouped together when they appear close in time. |
 | `horizon` | The time window checked after the clue appeared, usually 1 hour, 4 hours, or 24 hours. |

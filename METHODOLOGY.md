@@ -1,10 +1,10 @@
-# Source Lab Notes Methodology
+# Source Ledger Methodology
 
 Updated: June 29, 2026
 
 ## What We Are Testing
 
-Source Lab Notes tests whether a visible clue helped predict later crypto movement.
+Source Ledger tests whether a visible clue helped predict later crypto movement.
 
 The basic loop is:
 
@@ -17,7 +17,7 @@ The basic loop is:
 
 ## Why We Use Clue Instead Of Signal
 
-Many traders and tools call these things signals. Source Lab Notes uses the softer word clue because the whole project is testing whether the clue deserved to be trusted.
+Many traders and tools call these things signals. Source Ledger uses the softer word clue because the whole project is testing whether the clue deserved to be trusted.
 
 ## Observations And Episodes
 

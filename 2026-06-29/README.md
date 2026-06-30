@@ -1,6 +1,6 @@
-# Source Lab Notes Scorecard Assets - 2026-06-29
+# Source Ledger Scorecard Assets - 2026-06-29
 
-This folder contains public chart assets for the June 29, 2026 Source Lab Notes scorecard.
+This folder contains public chart assets for the June 29, 2026 Source Ledger scorecard.
 
 ## Files
 

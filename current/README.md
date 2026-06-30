@@ -1,8 +1,8 @@
-# Current Source Lab Notes Scorecards
+# Current Source Ledger Scorecards
 
-Generated: 2026-06-30T13:18:12.656Z
+Generated: 2026-06-30T18:10:36.052Z
 
-Public package id: `package-5d01c788963e60`
+Public package id: `package-1e0919a1649d8a`
 
 Replay batches included for asset-specific rows: 2
 
@@ -26,7 +26,7 @@ The current public scorecard is still early research evidence, not investment ad
 
 The row-level evidence file has 2254 replay rows. Use it to see the asset, timestamp, clue label, source mode, observed price, later return, and reason for each scored example.
 
-The pattern audit files have 17858 timestamped clue observations grouped into 1858 persistence episodes. Use them to see when a clue was first seen, whether it persisted across later snapshots, which source class it came from, and how it was scored.
+The pattern audit files have 18382 timestamped clue observations grouped into 2022 persistence episodes. Use them to see when a clue was first seen, whether it persisted across later snapshots, which source class it came from, and how it was scored.
 
 ## Top Research Leads
 
