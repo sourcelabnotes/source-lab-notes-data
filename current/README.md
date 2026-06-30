@@ -1,8 +1,8 @@
 # Current Source Lab Notes Scorecards
 
-Generated: 2026-06-29T15:38:29.634Z
+Generated: 2026-06-30T13:18:12.656Z
 
-Public package id: `package-f37efb9a12bcf0`
+Public package id: `package-5d01c788963e60`
 
 Replay batches included for asset-specific rows: 2
 
@@ -26,7 +26,7 @@ The current public scorecard is still early research evidence, not investment ad
 
 The row-level evidence file has 2254 replay rows. Use it to see the asset, timestamp, clue label, source mode, observed price, later return, and reason for each scored example.
 
-The pattern audit files have 16541 timestamped clue observations grouped into 1672 persistence episodes. Use them to see when a clue was first seen, whether it persisted across later snapshots, which source class it came from, and how it was scored.
+The pattern audit files have 17858 timestamped clue observations grouped into 1858 persistence episodes. Use them to see when a clue was first seen, whether it persisted across later snapshots, which source class it came from, and how it was scored.
 
 ## Top Research Leads
 
@@ -50,7 +50,7 @@ The pattern audit files have 16541 timestamped clue observations grouped into 16
 | source_class_exchange_price_data | Exchange price and historical market data | ok | 2192 | Current enough for latest checkpoint | market_data_or_historical_replay |
 | source_class_foreign_language_attention | Foreign-language news attention | ok | 63 | Stale for current checkpoint evidence | api_or_scripted_collection |
 | source_class_market_data_and_trending | Market data and public attention rankings | ok | 39 | Current enough for latest checkpoint | api_or_scripted_collection |
-| source_class_dashboard_ranking | Refreshed third-party dashboard ranking | ok | 71 | Recent context, not current checkpoint evidence | visual_capture |
+| source_class_dashboard_ranking | Refreshed third-party dashboard ranking | ok | 71 | Stale for current checkpoint evidence | visual_capture |
 | source_class_regional_premium_or_discount | Regional premium or discount | ok | 5 | Current enough for latest checkpoint | api_or_scripted_collection |
 | source_class_social_onchain_development_context | Social, on-chain, and development context | ok | 9 | Stale for current checkpoint evidence | api_or_visual_capture |
 | source_class_source_feature | Third-party source feature | ok | 8 | Recent context, not current checkpoint evidence | api_or_scripted_collection |

@@ -1,0 +1,7 @@
+row_type,label,count,avg_4h_after_cost_pct,hypothetical_result_on_10000_usd,plain_english_read
+Evidence funnel,Raw clue observations,17858,,,"Every timestamped clue captured by the local scorecard system."
+Evidence funnel,Persistence episodes,1858,,,"Repeated observations of the same clue for the same asset and source, grouped so persistence is visible."
+Evidence funnel,Asset-specific scorecard rows,46,,,"Rows where the public scorecard asks whether a clue looked different by asset."
+Evidence funnel,Named scored patterns,8,,,"Pattern families the public scorecard is currently willing to summarize."
+Current scored result,"Weak market, later bounce",125,1.02,102,"Current best research lead, but only for the 4-hour window and still not investment advice."
+Current scored result,"Original breakout trigger",36,-1.30,-130,"Original simple breakout-style rule has not earned trust so far."

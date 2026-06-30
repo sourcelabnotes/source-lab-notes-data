@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbfd"/>
+      <stop offset="55%" stop-color="#fffaf0"/>
+      <stop offset="100%" stop-color="#f5f7fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#1d2a35" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .title { font: 800 70px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17212b; }
+      .subtitle { font: 500 31px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526170; }
+      .eyebrow { font: 800 22px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #126c94; letter-spacing: 2px; }
+      .label { font: 800 28px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17212b; }
+      .metric { font: 900 72px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17212b; }
+      .small { font: 500 24px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #5d6b78; }
+      .barlabel { font: 800 30px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17212b; }
+      .barvalue { font: 900 42px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17212b; }
+      .footer { font: 500 20px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #6b7785; }
+    </style>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+  <rect x="62" y="62" width="1676" height="1076" rx="34" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="110" y="138" class="eyebrow">SOURCE LAB NOTES PROCESS CHECK</text>
+  <text x="110" y="220" class="title">Are we actually catching crypto clues?</text>
+  <text x="110" y="272" class="subtitle">Latest local audit: 17,858 observations, 1,858 persistence episodes, 8 scored pattern families.</text>
+
+  <line x1="110" y1="330" x2="1690" y2="330" stroke="#d8e1e9" stroke-width="3"/>
+
+  <rect x="110" y="390" width="360" height="260" rx="20" fill="#edf7fb" stroke="#c5e2ee"/>
+  <text x="145" y="450" class="label">Raw clue</text>
+  <text x="145" y="487" class="label">observations</text>
+  <text x="145" y="575" class="metric">17,858</text>
+  <text x="145" y="620" class="small">timestamped things the system saw</text>
+
+  <path d="M500 518 L575 518" stroke="#9ab2c3" stroke-width="10" stroke-linecap="round"/>
+  <path d="M560 490 L590 518 L560 546" fill="none" stroke="#9ab2c3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="610" y="390" width="360" height="260" rx="20" fill="#fff7e8" stroke="#ecd29d"/>
+  <text x="645" y="450" class="label">Persistence</text>
+  <text x="645" y="487" class="label">episodes</text>
+  <text x="645" y="575" class="metric">1,858</text>
+  <text x="645" y="620" class="small">same clue tracked across snapshots</text>
+
+  <path d="M1000 518 L1075 518" stroke="#9ab2c3" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1060 490 L1090 518 L1060 546" fill="none" stroke="#9ab2c3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="1110" y="390" width="260" height="260" rx="20" fill="#eef9f2" stroke="#bcdcc6"/>
+  <text x="1145" y="450" class="label">Asset rows</text>
+  <text x="1145" y="575" class="metric">46</text>
+  <text x="1145" y="620" class="small">asset-by-clue scoring</text>
+
+  <path d="M1400 518 L1475 518" stroke="#9ab2c3" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1460 490 L1490 518 L1460 546" fill="none" stroke="#9ab2c3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="1510" y="390" width="180" height="260" rx="20" fill="#f8eef6" stroke="#e3c2dc"/>
+  <text x="1540" y="450" class="label">Scored</text>
+  <text x="1540" y="487" class="label">patterns</text>
+  <text x="1540" y="575" class="metric">8</text>
+  <text x="1540" y="620" class="small">public summary rows</text>
+
+  <text x="110" y="735" class="eyebrow">WHAT THE CURRENT SCORECARD SAYS</text>
+  <rect x="110" y="780" width="1580" height="112" rx="20" fill="#f6f8fa" stroke="#dde5ec"/>
+  <text x="150" y="849" class="barlabel">Weak market, later bounce</text>
+  <rect x="670" y="813" width="530" height="46" rx="23" fill="#146c94"/>
+  <text x="1245" y="849" class="barvalue">+1.02%  =  +$102 on $10,000</text>
+  <text x="150" y="883" class="small">125 examples, 4-hour result after estimated costs, 80% positive</text>
+
+  <rect x="110" y="920" width="1580" height="112" rx="20" fill="#f6f8fa" stroke="#dde5ec"/>
+  <text x="150" y="989" class="barlabel">Original breakout trigger</text>
+  <rect x="670" y="953" width="675" height="46" rx="23" fill="#c85b6b"/>
+  <text x="1390" y="989" class="barvalue">-1.30%  =  -$130 on $10,000</text>
+  <text x="150" y="1023" class="small">36 examples, 4-hour result after estimated costs, 16.67% positive</text>
+
+  <line x1="110" y1="1075" x2="1690" y2="1075" stroke="#d8e1e9" stroke-width="3"/>
+  <text x="110" y="1122" class="footer">Generated June 30, 2026. Counts come from the local Source Lab Notes scorecard audit. Research only, not investment advice.</text>
+</svg>
