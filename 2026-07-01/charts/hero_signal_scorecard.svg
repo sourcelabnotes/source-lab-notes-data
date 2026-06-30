@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1192" viewBox="0 0 1600 1192" role="img" aria-label="Source Ledger supposed crypto clue scorecard">
+
+  <defs>
+    <filter id="cardShadow" x="-5%" y="-8%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#1f2937" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="headerWash" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#edf7fb"/>
+      <stop offset="100%" stop-color="#fff8e8"/>
+    </linearGradient>
+  </defs>
+<rect width="1600" height="1192" fill="#f6f2eb"/>
+<rect x="48" y="44" width="1504" height="1104" rx="42" fill="#ffffff" filter="url(#cardShadow)"/>
+<rect x="48" y="44" width="1504" height="220" rx="42" fill="url(#headerWash)"/>
+<rect x="48" y="176" width="1504" height="88" fill="url(#headerWash)"/>
+<text x="90" y="112" font-size="30" font-weight="900" fill="#146c94" letter-spacing="1">Source Ledger</text>
+<text x="90" y="164" font-size="43" font-weight="950" fill="#17212b">Supposed crypto clues: what happened next?</text>
+<text x="90" y="209" font-size="23" font-weight="700" fill="#5f6c7b">Each row aggregates one clue across watched assets; asset tables show where it appeared</text>
+<text x="90" y="240" font-size="23" font-weight="700" fill="#5f6c7b">Dollar labels translate the average 4-hour result into hypothetical profit or loss on $10,000</text>
+<text x="90" y="284" font-size="19" font-weight="850" fill="#5f6c7b" text-transform="uppercase">Clue we scored</text>
+<text x="650" y="284" font-size="19" font-weight="850" fill="#5f6c7b" text-transform="uppercase">Average 4-hour result after costs (+/-1.4% scale)</text>
+<line x1="765.7142857142858" y1="310" x2="765.7142857142858" y2="1082" stroke="#c9d2dc" stroke-width="1" opacity="0.34"/>
+<line x1="910.3571428571429" y1="310" x2="910.3571428571429" y2="1082" stroke="#c9d2dc" stroke-width="1" opacity="0.34"/>
+<line x1="1055" y1="310" x2="1055" y2="1082" stroke="#65758b" stroke-width="3" opacity="0.8"/>
+<line x1="1199.642857142857" y1="310" x2="1199.642857142857" y2="1082" stroke="#c9d2dc" stroke-width="1" opacity="0.34"/>
+<line x1="1344.2857142857142" y1="310" x2="1344.2857142857142" y2="1082" stroke="#c9d2dc" stroke-width="1" opacity="0.34"/>
+
+      <g>
+        <text x="90" y="350" font-size="27" font-weight="850" fill="#17212b">Weak market, later bounce</text>
+        <text x="90" y="384" font-size="19" font-weight="650" fill="#5f6c7b">125 examples | 80.0% ended positive</text>
+        <rect x="650" y="326" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="1055" y="326" width="296.24510776767744" height="56" rx="18" fill="#146c94"/>
+        <text x="1369.2451077676774" y="363" font-size="25" font-weight="900" fill="#146c94" text-anchor="start">+1.02% / +$102</text>
+      </g>
+
+      <g>
+        <text x="90" y="442" font-size="27" font-weight="850" fill="#17212b">Sharp drop, later bounce</text>
+        <text x="90" y="476" font-size="19" font-weight="650" fill="#5f6c7b">25 examples | 72.0% ended positive</text>
+        <rect x="650" y="418" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="1055" y="418" width="260.4791540728441" height="56" rx="18" fill="#146c94"/>
+        <text x="1333.479154072844" y="455" font-size="25" font-weight="900" fill="#146c94" text-anchor="start">+0.90% / +$90</text>
+      </g>
+
+      <g>
+        <text x="90" y="534" font-size="27" font-weight="850" fill="#17212b">Orderly dip</text>
+        <text x="90" y="568" font-size="19" font-weight="650" fill="#5f6c7b">392 examples | 31.9% ended positive</text>
+        <rect x="650" y="510" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="895.796028965857" y="510" width="159.20397103414308" height="56" rx="18" fill="#c85b6b"/>
+        <text x="877.796028965857" y="547" font-size="25" font-weight="900" fill="#c85b6b" text-anchor="end">-0.55% / -$55</text>
+      </g>
+
+      <g>
+        <text x="90" y="626" font-size="27" font-weight="850" fill="#17212b">Original breakout watch</text>
+        <text x="90" y="660" font-size="19" font-weight="650" fill="#5f6c7b">765 examples | 28.9% ended positive</text>
+        <rect x="650" y="602" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="887.7548688656052" y="602" width="167.24513113439477" height="56" rx="18" fill="#c85b6b"/>
+        <text x="869.7548688656052" y="639" font-size="25" font-weight="900" fill="#c85b6b" text-anchor="end">-0.58% / -$58</text>
+      </g>
+
+      <g>
+        <text x="90" y="718" font-size="27" font-weight="850" fill="#17212b">No clear clue</text>
+        <text x="90" y="752" font-size="19" font-weight="650" fill="#5f6c7b">940 examples | 33.1% ended positive</text>
+        <rect x="650" y="694" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="886.071138517707" y="694" width="168.92886148229294" height="56" rx="18" fill="#c85b6b"/>
+        <text x="868.071138517707" y="731" font-size="25" font-weight="900" fill="#c85b6b" text-anchor="end">-0.58% / -$58</text>
+      </g>
+
+      <g>
+        <text x="90" y="810" font-size="27" font-weight="850" fill="#17212b">Fast-moving coin rally</text>
+        <text x="90" y="844" font-size="19" font-weight="650" fill="#5f6c7b">119 examples | 26.9% ended positive</text>
+        <rect x="650" y="786" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="844.6415507103939" y="786" width="210.3584492896061" height="56" rx="18" fill="#c85b6b"/>
+        <text x="826.6415507103939" y="823" font-size="25" font-weight="900" fill="#c85b6b" text-anchor="end">-0.73% / -$73</text>
+      </g>
+
+      <g>
+        <text x="90" y="902" font-size="27" font-weight="850" fill="#17212b">Near 24-hour high</text>
+        <text x="90" y="936" font-size="19" font-weight="650" fill="#5f6c7b">173 examples | 19.7% ended positive</text>
+        <rect x="650" y="878" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="828.3483256954843" y="878" width="226.65167430451575" height="56" rx="18" fill="#c85b6b"/>
+        <text x="810.3483256954843" y="915" font-size="25" font-weight="900" fill="#c85b6b" text-anchor="end">-0.78% / -$78</text>
+      </g>
+
+      <g>
+        <text x="90" y="994" font-size="27" font-weight="850" fill="#17212b">Original breakout trigger</text>
+        <text x="90" y="1028" font-size="19" font-weight="650" fill="#5f6c7b">36 examples | 16.7% ended positive</text>
+        <rect x="650" y="970" width="810" height="56" rx="18" fill="#f2f5f8"/>
+        <rect x="678.7612615270181" y="970" width="376.23873847298194" height="56" rx="18" fill="#c85b6b"/>
+        <text x="660.7612615270181" y="1007" font-size="25" font-weight="900" fill="#c85b6b" text-anchor="end">-1.30% / -$130</text>
+      </g>
+<line x1="90" y1="1118" x2="1510" y2="1118" stroke="#d8dee6" stroke-width="2"/>
+<text x="90" y="1142" font-size="21" font-weight="650" fill="#5f6c7b">Aggregate view only. See asset and row-level data for where and when each clue appeared. Research only.</text>
+<text x="1510" y="1142" font-size="21" font-weight="800" fill="#146c94" text-anchor="end">CSV: hero_signal_scorecard.csv</text>
+</svg>

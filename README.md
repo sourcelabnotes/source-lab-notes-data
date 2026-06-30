@@ -35,7 +35,11 @@ This repository publishes **normalized observations and scorecards**, not raw th
 | `2026-06-29/charts/hero_signal_scorecard.png` | Current scorecard hero chart image. |
 | `2026-06-29/charts/hero_signal_scorecard.svg` | Vector fallback for the current scorecard chart. |
 | `2026-06-29/charts/hero_signal_scorecard.mmd` | Mermaid source for the current scorecard chart. |
-| `current/current_signal_family_scorecard.csv` | Persistent scorecard by broad pattern or signal family. |
+| `2026-07-01/charts/hero_signal_scorecard.csv` | Downloadable chart data for Source Ledger Scorecard #001. |
+| `2026-07-01/charts/hero_signal_scorecard.png` | Source Ledger Scorecard #001 hero chart image. |
+| `2026-07-01/charts/hero_signal_scorecard.svg` | Vector fallback for the Scorecard #001 chart. |
+| `2026-07-01/charts/hero_signal_scorecard.mmd` | Mermaid source for the Scorecard #001 chart. |
+| `current/current_signal_family_scorecard.csv` | Persistent scorecard by broad pattern or clue family. |
 | `current/current_asset_signal_scorecard.csv` | Persistent asset-specific scorecard by asset, pattern, and horizon. |
 | `current/current_row_level_signal_evidence.csv` | Timestamped row-level replay evidence showing asset, clue, source class, observed price, later result, and reason. |
 | `current/current_pattern_observations.csv` | Timestamped clue observations normalized for public audit. |

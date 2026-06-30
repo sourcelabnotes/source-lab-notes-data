@@ -1,8 +1,8 @@
 # Current Source Ledger Scorecards
 
-Generated: 2026-06-30T18:10:36.052Z
+Generated: 2026-06-30T19:32:02.094Z
 
-Public package id: `package-1e0919a1649d8a`
+Public package id: `package-e3f903d9b208de`
 
 Replay batches included for asset-specific rows: 2
 
@@ -16,8 +16,8 @@ The current public scorecard is still early research evidence, not investment ad
 
 ## Files
 
-- `current_signal_family_scorecard.csv`
-- `current_asset_signal_scorecard.csv`
+- `current_signal_family_scorecard.csv` (clue-family scorecard)
+- `current_asset_signal_scorecard.csv` (asset-by-clue scorecard)
 - `current_row_level_signal_evidence.csv`
 - `current_pattern_observations.csv`
 - `current_pattern_episodes.csv`
